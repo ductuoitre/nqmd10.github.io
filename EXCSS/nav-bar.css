@@ -1,0 +1,69 @@
+body {
+    background-color: #cccccc;
+    margin: 0 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header {
+    background: rgb(52, 55, 55);
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+}
+.header__item {
+    display: inline-block;
+    font-size: 24px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin: 0 69px;
+    transition: opacity 0.2s ease;
+    font-weight: 700;
+}
+.header__item__text {
+    text-decoration: none;
+    color: #fff;
+}
+.header__item:hover {
+    opacity: 0.69;
+}
+/* .content {
+    display: flex;
+} */
+.content__picture {
+    /* background-image: url(https://cdn.givemesport.com/wp-content/uploads/2022/01/21_10_18_3560505e5428529832dcc5e7d9afe6b2_960-2.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.name {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.captain {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 28px;
+}
+.tb {
+   margin-left: 200px;
+   width: 500px;
+}
+.footer {
+    /* display: flex; */
+    background-color: rgb(52, 55, 55);
+    color: #fff;
+    margin-top: 100px;
+    /* justify-content: center; */
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+    
