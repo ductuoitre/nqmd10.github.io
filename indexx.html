@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QLSV</title>
+    <link rel="stylesheet" href="mainn.css">
+    <link rel="stylesheet" href="/themify-icons/themify-icons.css">
+</head>
+    
+
+    <body>
+        <div class="header">
+            <ul class="header__list">
+                <li class="header__item logo1"> <img src="/img/utc.png" alt="" class="logo"> </li>
+                <li class="header__item"><a href class="header__item__text"> <i class="ti-home"></i> Trang chủ</a></li>
+                <li class="header__item"><a href class="header__item__text"> <i class="ti-bookmark-alt"></i> Danh sách</a></li>
+                <li class="header__item"><a href class="header__item__text"> <i class="ti-user"></i> Giảng viên</a></li>
+                <li class="header__item"><a href class="header__item__text"> <i class="ti-book"></i> Môn Học</a></li>              
+            </ul>
+            <ul class="header__list header__list--auth">
+                <li class="header__item header__item--register"><a href="#my-modal-register" class="header__item__text">Đăng ký</a></li>
+                <span class="header__item-sparate"></span>
+                <li class="header__item header__item--login"><a href="#my-modal-login" class="header__item__text">Đăng nhập</a></li>            
+            </ul>
+        </div>
+        <div class="content">
+        <div class="modal" id="my-modal-register">
+            <div class="modal__overlay">
+
+            </div>
+            <div class="modal__body">
+                <!--Register form -->
+                 <div class="auth-form">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn"><a href="#my-modal-login" class="auth-form__switch-btn">Đăng nhập</a></span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập username">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại password">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Nhập email">
+                            </div>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn--back"><a href="" class="back">Trở về</a></button>
+                            <button class="btn btn--primary btn--disable"><a href="" class="continute">Đăng ký</a></button>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <!-- Login form -->
+            <div class="modal" id="my-modal-login">
+                <div class="modal__overlay">
+        
+                    </div>
+                        <div class="modal__body">
+                    <div class="auth-form">
+                     <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn"><a href="#my-modal-register" class="auth-form__switch-btn">Đăng ký</a></span>
+                     </div>
+                         <div class="auth-form__form">
+                              <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Nhập username" required>
+                              </div>
+                                <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập password" required>
+                                </div>
+                                    <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link ">Quên mật khẩu</a>
+                            <span class="auth-form__help-sparate"></span>
+                            <a href="" class="auth-form__help-link ">Cần trợ giúp ?</a>
+                                    </div>
+                          </div>
+                            <div class="auth-form__controls">
+                        <button class="btn btn--back"><a href="" class="back">Trở về</a></button>
+                        <button class="btn btn--primary btn--disable"><a href="" class="continute">Đăng nhập</a></button>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
+</html>
